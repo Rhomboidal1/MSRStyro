@@ -1,0 +1,184 @@
+# main.yaml
+- use: ./preface.yaml
+- Plateau:
+  - SoR clip
+  - Boko Camp:
+     notes: PotLid Spear All Shroom All Pepper
+     coord: [-952.34, 238.33, 1959.44]
+     icon: potlid
+  - Temple of Time:
+     coord: [-832.43, 222.00, 1963.11]
+     notes: Clip thru window
+     icon: bow
+  - BLSS
+  - _Shrine::JaBaij:
+     icon: bombs
+  - BLSS
+  - _Shrine::OmanAu:
+     icon: mag
+  - BLSS
+  - Tree Windbomb
+  - _Shrine::OwaDaim:
+     icon: stasis
+     comment: Get Hammer
+  - Boulder Launch - > BLSS
+  - _Shrine::KehNamut:
+     icon: cryo
+  - BLSS
+  - Paraglider:
+     coord: [-814.73, 263.58, 1964.88]
+     counter: .my-counter(SPLT)
+     icon: paraglider
+- First Section:
+  - _Shrine::BoshKala:
+     notes: N. turn .N
+  - _Shrine::WahgoKatta:
+     notes: to next shrine <E turn E
+     comment: L Peg, aim at wall, height WB
+  - _Shrine::HilaRao:
+     notes: 
+     - Hila Rao N. turn .N to fairy
+     - <N at the guardian
+     #comment:
+  - _Shrine::KayaWan:
+     notes: BLSS to Sheh Rata
+  - _Shrine::ShehRata:
+     notes:
+     - E> turn <E
+     #comment: 
+  - _Shrine::SohKofi:
+     notes:
+     - N super
+     #comment:
+  - _Shrine::TahMuhl:
+     notes: 
+     - E> height, spam glider
+     - <<E turn temp gauge to Moa Keet
+     #comment: 
+  - _Shrine::MoaKeet:
+     notes: N then turn N. to Sah Dahaj
+     #comment: 
+  - _Shrine::SahDahaj:
+     notes: E. up, then .E TO Ze Kasho
+     #comment: 
+  - _Shrine::ZeKasho:
+     notes: BLSS to Katosa Aug
+     #comment: 
+  - _Shrine::KatosaAug:
+     notes:
+     - BLSS to Zuna Kai
+     - W> height WB
+     #comment:
+  - _Shrine::ZunaKai:
+     #notes:
+     #comment:
+- 2nd Section:
+  - Warp to Sheh Rata:
+     color: lightgreen
+     movements:
+     - to: [1507.00, 141.50, -378.00]
+       warp: true
+     notes: BLSS to Daka Tuss
+  - _Shrine::DakaTuss:
+     comment: Hop, hop and drop, unequip shield detonate
+  - Goddess Statue:
+      coord: [1840.12, 218.54, 997.89]
+      notes: Don't press B
+      icon: heart
+      comment: WB to Taloh Naeg
+  - _Shrine::TalohNaeg:
+      notes: Do TOS skip from peg
+  - _Shrine::SheeVaneer:
+     notes:
+     comment:
+  - _Shrine::SheeVenath:
+     notes:
+     comment:
+  - _Shrine::ReeDahee:
+     notes:
+     comment:
+  - _Shrine::TotoSah:
+     notes:
+     comment:
+  - _Shrine::HaDahamar:
+     notes:
+     comment:
+  - Warp to Shee Vaneer:
+     color: lightblue
+     movements:
+      - to: [1257.94, 523.10, 1956.15]
+        warp: true
+     notes: BLSS to Qukah Nata
+  - _Shrine::QukahNata:
+     notes:
+     comment:
+  - _Shrine::ShodaSah:
+     notes:
+     comment:
+  - _Shrine::ShaiUtoh:
+     notes:
+     comment:
+  - _Shrine::KaoMakagh:
+     notes: N. turn < to Pumaag Nitae
+     comment: 
+  - _Shrine::PumaagNitae:
+     notes:
+     - W. turn <W
+     - W. turn <W from Hill to Ya Naga
+     comment:
+  - _Shrine::YaNaga:
+     notes:
+     comment:
+- 3rd Section:
+  - Warp to Keh Namut:
+     color: hotpink
+     movements:
+     - to: [-1437.27, 316.69, 1995.57]
+       warp: true
+     notes: Ordinal Super to Jee Noh
+  - _Shrine::JeeNoh:
+     notes:
+     - <N turn
+     - N> turn
+     comment:
+  - _Shrine::DahKaso:
+     notes:
+     comment:
+  - _Shrine::RotaOoh:
+     notes: BLSS to Kaam Yatak
+     comment:
+  - _Shrine::KaamYatak:
+     notes:
+     comment: Aim at tower, turn left
+  - _Shrine::ZaltaWa:
+     notes:
+     - W cardinal height
+     - N height
+     - <N turn
+     - N> turn to Monya Toma
+     comment:
+  - _Shrine::MonyaToma:
+     notes: W turn <W
+     comment:
+  - _Shrine::MaagNorah:
+     notes: wb out, midair back, BLSS to Rin Oyaa
+     comment:
+  - _Shrine::RinOyaa:
+     notes: BLSS to Sha Gehma
+     comment:
+  - _Shrine::ShaGehma:
+     notes: BLSS to Maze
+     comment:
+  - _Shrine::QazaTokki:
+     notes: WB out of maze, BLSS to Keo Ruug
+     comment: must be going fast!!!!
+  - _Shrine::KeoRuug:
+     notes:
+     comment:
+  - Goddess Statue:
+      coord: [415.74, 258.73, -2179.85]
+      notes: Don't press B!!!!
+      icon: heart
+  - Get Sword:
+      coord: [431.66, 250.53, -2111.00]
+      icon: master sword
